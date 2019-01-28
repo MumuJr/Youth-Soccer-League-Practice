@@ -1,0 +1,429 @@
+/* Nav Bar NYSL */
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	top: 0px;
+	border-bottom: 1px solid #033949;
+	box-shadow: 0px 2px 4px 0px #033949;
+}
+
+.logo img {
+	width: 70px;
+	height: 60px;
+	margin-right: 12px;
+}
+
+.navbar span {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px black solid;
+	flex-grow: 1;
+}
+.navbar a {
+	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.47);
+	text-decoration: none;
+	color: #1b5643;
+	padding: 5px;
+	background-color: white;
+}
+.navbar a:hover {
+	color: white;
+	background-color: #1b5643;
+}
+
+/* Body Starts */
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+
+.jumbotron {
+	background-image: url("images/design2_image1.jpeg");
+	display: flex;
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0px;
+	margin-top: 5rem;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.jumbotron-text {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 35px;
+	height: 450px;
+	flex-shrink: 1;
+}
+.jumbotron-text h1 {
+	background-color: #f0f6f8;
+	color: #1e5742;
+	border-radius: 15px;
+	padding: 5px;
+}
+/* Upcomming Events */
+.events {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #80808040;
+	height: 360px;
+}
+.upcoming {
+	background-color: #f0f6f87a;
+	padding: 15px;
+	box-shadow: 0px 0px 10px 4px #0339498a;
+	border-radius: 15px;
+}
+.upcoming h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+.upcoming li {
+	font-size: 20px;
+	list-style: none;
+	padding: 5px;
+}
+
+/* photos */
+.players {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.players img {
+	height: 300px;
+	border-radius: 15px;
+}
+/* Mission and contact */
+.mission {
+	display: flex;
+	justify-content: center;
+	background-color: #80808040;
+	padding: 15px;
+}
+.information {
+	border: 2px solid #1e5742;
+	border-radius: 15px;
+	padding: 15px;
+	margin-top: 15px;
+	background-color: white;
+	width: 50%;
+	box-shadow: 0px 0px 10px 4px #0339498a;
+}
+.email {
+	display: flex;
+	width: 30%;
+	border: 2px solid #1e5742;
+	border-radius: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: white;
+	box-shadow: 0px 0px 10px 4px #0339498a;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: end;
+	padding: 15px;
+	width: 100%;
+}
+.email-title {
+	display: flex;
+	justify-content: flex-start;
+}
+.email-title h1 {
+	border-bottom: 2px solid #1a5741;
+	color: #1a5741;
+}
+.email-form {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	background-color: #8080802e;
+	border-radius: 3%;
+	color: #1a5741;
+}
+.email-form form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 70%;
+}
+
+.email-form-name {
+	display: flex;
+	flex-direction: column;
+}
+.email-subject {
+	display: flex;
+	flex-direction: column;
+}
+
+.email-submit {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+/* Game Index */
+.title {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 6%;
+	width: 100%;
+}
+.title h1 {
+	margin-bottom: -0.5em;
+	color: #1e5742;
+}
+.title h2 {
+	margin-bottom: -0.5em;
+	color: #1e5742;
+}
+
+.table {
+	display: flex;
+	justify-content: space-around;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+.maps {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+iframe {
+	margin-top: 5px;
+}
+.month {
+	display: inline-flex;
+}
+
+.table th {
+	font-size: 18px;
+	font-weight: normal;
+	color: #1e5742;
+	padding: 12px 15px;
+}
+
+td,
+th {
+	border-bottom: 2px solid #1e5742;
+	text-align: left;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.dropdown ul {
+	display: none;
+}
+.dropdown:hover ul {
+	display: block;
+}
+.dropdown a {
+	font-size: 14px;
+	font-weight: normal;
+	color: #1e5742;
+}
+.additional {
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 10%;
+	margin-top: 5%;
+}
+.additional h1 {
+	color: #1e5742;
+}
+.space {
+	height: 45px;
+	width: 100%;
+	background-color: #1e5742;
+}
+
+/* Rules & Policies */
+
+.rules {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 5%;
+	background-color: #1e5742;
+	color: white;
+}
+.sportsmanship {
+	width: 80%;
+}
+
+/* Form Page */
+.form {
+	display: grid;
+	grid-template-columns: .5fr 2fr .5fr;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+.form-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.form-group-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.form-group-column label {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 10px;
+}
+
+.form-group label {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 10px;
+}
+.school-name label {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	font-size: 1em;
+	margin: 10px;
+}
+.live-near label {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-weight: bold;
+	font-size: 1em;
+	margin: 10px;
+}
+
+.left-inline {
+	display: inline-flex;
+	flex-grow: 1;
+	align-items: center;
+}
+
+.right-inline {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	width: auto;
+	flex-grow: 1;
+}
+
+.form-group .input-control {
+	flex: 1 1 auto;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid black;
+	display: inline-flex;
+	margin-bottom: 10px;
+	padding: 7px;
+	margin-top: 2px;
+}
+.school {
+	display: flex;
+	flex-direction: row;
+}
+
+.close-school {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.close-school-two {
+	display: inline-flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.school-name {
+	display: inline-flex;
+	align-content: center;
+	align-items: center;
+}
+
+.checkbox {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.checkbox-school {
+	margin-left: 10px;
+}
+
+button {
+	padding: 5px 15px;
+	margin: 5px;
+	min-width: 100px;
+}
+
+@media (max-width: 768px) {
+	.form-group {
+		flex-direction: column;
+	}
+	.form-group .input-control {
+		margin-top: 2px;
+	}
+	.form-group label.right-inline {
+		text-align: left;
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+/* show data */
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+.feedback th {
+	font-size: 1.0rem;
+}
+.feedback td {
+	font-size: 1.0rem;
+	font-weight: bold;
+}

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="nysl_3.css"/>
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/nysl_logo.png" alt="COMPANY LOGO">
+            </a>
+        </div> 
+        <nav class="navbar">
+            <span>
+                <a href="index.html#events">Events</a>
+            </span>
+            <span>
+                <a href="index.html#about">About NYSL</a>
+            </span>
+            
+            <span>
+                <a href="game_index.html">Game Information</a>
+            </span>
+            <span>
+                <a href="rules_policies.html">Policies & Rules</a>
+            </span>
+            <span>
+                <a href="registration.html">Registration</a>
+            </span>
+            <span>
+                <a href="index.html#contact">Contact</a>
+            </span>
+        </nav>
+    </header>
+    
+    
+    <div class="title">
+        <h1>Registration Form</h1>
+    </div> 
+    <div class="form">
+        <div class="column-one"></div> 
+        <form action="show_data.html" method="GET">
+            <div class="form-column"> 
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Player's First Name :</label>
+                        <input name="first_name" placeholder="John" class="input-control"/>
+                    </div>
+                    <div class="right-inline">
+                        <label>Last Name :</label>
+                        <input name="last_name" placeholder="Smith" class="input-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Street Address :</label>
+                        <input name="street_address" placeholder="West Wind" class="input-control" />
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>City :</label>
+                        <input name="city" placeholder="Boca Raton" class="input-control" />
+                    </div>
+                    <div class="right-inline">
+                        <label>Zip Code: </label>
+                        <input name="zip_code" placeholder="Zip" class="input-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Birth Date:</label>
+                        <input name="birth_date" type="date"/>
+                    </div>
+                    <div class="right-inline">
+                        <label>Gender:</label>
+                        <input name="female" type="checkbox" class="checkbox">
+                        <label>Female </label>
+                        <input name="male" type="checkbox" class="checkbox">
+                        <label>Male </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Grade:</label>
+                        <input name="grade_1st" type="checkbox" class="checkbox">
+                        <label>1st</label>
+                        <input name="grade_2nd" type="checkbox" class="checkbox">
+                        <label>2nd</label>
+                        <input name="grade_3rd" type="checkbox" class="checkbox">
+                        <label>3rd</label>
+                        <input name="grade_4th" type="checkbox" class="checkbox">
+                        <label>4th</label>
+                        <input name="grade_5th" type="checkbox" class="checkbox">
+                        <label>5th</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Parent/Guardian: </label>
+                        <input name="parent_guardian" placeholder="West Wind" class="input-control" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Contact Phone:</label>
+                        <input name="contact_phone" placeholder="Boca Raton" class="input-control" />
+                    </div>
+                    <div class="right-inline">
+                        <label>Contact Email: </label>
+                        <input name="contact_email" placeholder="Zip" class="input-control"/>
+                    </div>
+                </div>
+                <div class="live-near">
+                    <label>Which Elementary school do you live near?</label>
+                </div>
+                
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>First Closest School:</label>
+                    </div>
+                    <div class="right-inline">
+                        <label>Second Closest School:</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="school">
+                        <div class="close-school">
+                            <div class="school-name">
+                                <input name="closest_aj_katzenmaier" type="checkbox" class="checkbox-school">
+                                <label>AJ Katzenmaier</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="closest_greenbay" type="checkbox" class="checkbox-school">
+                                <label>Greenbay</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="closest_howard_a_yeager" type="checkbox" class="checkbox-school">
+                                <label>Howard A Yeager</label>
+                            </div>   
+                        </div>          
+                        
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="closest_marjorie_p_hart" type="checkbox" class="checkbox-school">
+                                <label>Marjorie P Hart</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="closest_north_elementary" type="checkbox" class="checkbox-school">
+                                <label>North Elementary</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="closest_south_elementary" type="checkbox" class="checkbox-school">
+                                <label>South Elementary</label>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="second_closest_aj_katzenmaier" type="checkbox" class="checkbox-school">
+                                <label>AJ Katzenmaier</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="second_closest_greenbay" type="checkbox" class="checkbox-school">
+                                <label>Greenbay</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="second_closest_howard_a_yeager" type="checkbox" class="checkbox-school">
+                                <label>Howard A Yeager</label>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="second_closest_marjorie_p_hart" type="checkbox" class="checkbox-school">
+                                <label>Marjorie P Hart</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="second_closest_north_elementary" type="checkbox" class="checkbox-school">
+                                <label>North Elementary</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="second_closest_south_elementary" type="checkbox" class="checkbox-school">
+                                <label>South Elementary</label>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group-column">
+                    <label>What position(s) do you normally play? (check all that apply)</label>
+                    <div class="school">
+                        <div class="school-name">
+                            <input name="position_forward" type="checkbox" class="checkbox-school">
+                            <label>Forward</label>
+                        </div>
+                        <div class="school-name">
+                            <input name="position_midfield" type="checkbox" class="checkbox-school">
+                            <label>Midfield</label>
+                        </div>
+                        
+                    </div> 
+                    <div class="school">
+                        <div class="school-name">
+                            <input name="position_defense" type="checkbox" class="checkbox-school">
+                            <label>Defense</label>
+                        </div>
+                        <div class="school-name">
+                            <input name="position_goalkeeper" type="checkbox" class="checkbox-school">
+                            <label>GoalKeeper</label>
+                        </div>
+                    </div>    
+                </div>        
+                <div class="form-group-column">
+                    <label>What position(s) do you want to play? (check all that apply)</label>
+                    <div class="school">
+                        <div class="school-name">
+                            <input name="position_want_forward" type="checkbox" class="checkbox-school">
+                            <label>Forward</label>
+                        </div>
+                        <div class="school-name">
+                            <input name="position_want_midfield" type="checkbox" class="checkbox-school">
+                            <label>Midfield</label>
+                        </div>
+                        
+                    </div> 
+                    <div class="school">
+                        <div class="school-name">
+                            <input name="position_want_defense" type="checkbox" class="checkbox-school">
+                            <label>Defense</label>
+                        </div>
+                        <div class="school-name">
+                            <input name="position_want_goalkeeper" type="checkbox" class="checkbox-school">
+                            <label>GoalKeeper</label>
+                        </div>
+                    </div>    
+                </div>
+                
+                
+                <div class="form-group">
+                    <div class="left-inline">
+                        <input name="already_have_uniform" type="checkbox" class="checkbox-school">
+                        <label>Already Have a Uniform</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="left-inline">
+                        <label>Jersey Size:</label>
+                    </div>
+                    <div class="right-inline">
+                        <label>Shorts Size:</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="school">
+                        <div class="close-school">
+                            <div class="school-name">
+                                <input name="J_size_youth_Ysmall" type="checkbox" class="checkbox-school">
+                                <label>Youth Small</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="J_size_Ymedium" type="checkbox" class="checkbox-school">
+                                <label>Youth Medium</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="J_size_Ylarge" type="checkbox" class="checkbox-school">
+                                <label>Youth Large</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="J_size_small" type="checkbox" class="checkbox-school">
+                                <label>Small</label>
+                            </div>   
+                        </div>          
+                        
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="J_size_medium" type="checkbox" class="checkbox-school">
+                                <label>Medium</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="J_size_large" type="checkbox" class="checkbox-school">
+                                <label>Large</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="J_size_Xlarge" type="checkbox" class="checkbox-school">
+                                <label>Extra Large</label>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="S_size_Ysmall" type="checkbox" class="checkbox-school">
+                                <label>Youth Small</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="S_size_Ymedium" type="checkbox" class="checkbox-school">
+                                <label>Youth Medium</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="S_size_Ylarge" type="checkbox" class="checkbox-school">
+                                <label>Youth Large</label>
+                            </div> 
+                            <div class="school-name">
+                                <input name="S_size_Small" type="checkbox" class="checkbox-school">
+                                <label>Small</label>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="school">
+                        <div class="close-school-two">
+                            <div class="school-name">
+                                <input name="S_size_medium" type="checkbox" class="checkbox-school">
+                                <label>Medium</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="S_size_large" type="checkbox" class="checkbox-school">
+                                <label>Large</label>
+                            </div>
+                            <div class="school-name">
+                                <input name="S_size_Xlarge" type="checkbox" class="checkbox-school">
+                                <label>Large</label>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="permission">
+                    <div class="agreement">
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+                        <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+                    </div>
+                    <div class="signature">
+                        <label>Parent/Guardian Signature:</label>
+                        <input name="first_last_name" placeholder="First Name / Last Name" class="input-control"/>
+                        
+                        
+                        <label>Date:</label>
+                        <input name="today_date" type="date"/>
+                    </div>
+                </div>
+                
+                
+                <div class="button-submit">
+                    <button type="submit" value="submit">Confirm</button>
+                </div>
+            </div>
+            <div class="column-two"></div>
+            
+        </form>
+    </div>
+</body>
+</html>
