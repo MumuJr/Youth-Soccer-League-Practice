@@ -1,3 +1,8 @@
+:root {
+	--primarygreen: #1e5742;
+	--border: #033949;
+}
+
 /* Nav Bar NYSL */
 header {
 	display: flex;
@@ -11,8 +16,8 @@ header {
 	font-size: 14px;
 	font-weight: bold;
 	top: 0px;
-	border-bottom: 1px solid #033949;
-	box-shadow: 0px 2px 4px 0px #033949;
+	border-bottom: 1px solid var(--border);
+	box-shadow: 0px 2px 4px 0px var(--border);
 }
 
 .logo img {
@@ -31,13 +36,13 @@ header {
 .navbar a {
 	box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.47);
 	text-decoration: none;
-	color: #1b5643;
+	color: var(--primarygreen);
 	padding: 5px;
 	background-color: white;
 }
 .navbar a:hover {
 	color: white;
-	background-color: #1b5643;
+	background-color: var(--primarygreen);
 }
 
 /* Body Starts */
@@ -68,7 +73,7 @@ body {
 }
 .jumbotron-text h1 {
 	background-color: #f0f6f8;
-	color: #1e5742;
+	color: var(--primarygreen);
 	border-radius: 15px;
 	padding: 5px;
 }
@@ -83,7 +88,7 @@ body {
 .upcoming {
 	background-color: #f0f6f87a;
 	padding: 15px;
-	box-shadow: 0px 0px 10px 4px #0339498a;
+	box-shadow: 0px 0px 10px 4px var(--border);
 	border-radius: 15px;
 }
 .upcoming h2 {
@@ -117,23 +122,23 @@ body {
 	padding: 15px;
 }
 .information {
-	border: 2px solid #1e5742;
+	border: 2px solid var(--primarygreen);
 	border-radius: 15px;
 	padding: 15px;
 	margin-top: 15px;
 	background-color: white;
 	width: 50%;
-	box-shadow: 0px 0px 10px 4px #0339498a;
+	box-shadow: 0px 0px 10px 4px var(--border);
 }
 .email {
 	display: flex;
 	width: 30%;
-	border: 2px solid #1e5742;
+	border: 2px solid var(--primarygreen);
 	border-radius: 15px;
 	margin-top: 15px;
 	margin-left: 15px;
 	background-color: white;
-	box-shadow: 0px 0px 10px 4px #0339498a;
+	box-shadow: 0px 0px 10px 4px var(--border);
 }
 
 .info {
@@ -149,8 +154,8 @@ body {
 	justify-content: flex-start;
 }
 .email-title h1 {
-	border-bottom: 2px solid #1a5741;
-	color: #1a5741;
+	border-bottom: 2px solid var(--primarygreen);
+	color: var(--primarygreen);
 }
 .email-form {
 	display: flex;
@@ -159,7 +164,7 @@ body {
 	justify-content: center;
 	background-color: #8080802e;
 	border-radius: 3%;
-	color: #1a5741;
+	color: var(--primarygreen);
 }
 .email-form form {
 	display: flex;
@@ -195,11 +200,11 @@ body {
 }
 .title h1 {
 	margin-bottom: -0.5em;
-	color: #1e5742;
+	color: var(--primarygreen);
 }
 .title h2 {
 	margin-bottom: -0.5em;
-	color: #1e5742;
+	color: var(--primarygreen);
 }
 
 .table {
@@ -224,13 +229,13 @@ iframe {
 .table th {
 	font-size: 18px;
 	font-weight: normal;
-	color: #1e5742;
+	color: var(--primarygreen);
 	padding: 12px 15px;
 }
 
 td,
 th {
-	border-bottom: 2px solid #1e5742;
+	border-bottom: 2px solid var(--primarygreen)2;
 	text-align: left;
 	padding: 15px;
 	font-size: 14px;
@@ -245,7 +250,7 @@ th {
 .dropdown a {
 	font-size: 14px;
 	font-weight: normal;
-	color: #1e5742;
+	color: var(--primarygreen);
 }
 .additional {
 	display: inline-flex;
@@ -256,12 +261,12 @@ th {
 	margin-top: 5%;
 }
 .additional h1 {
-	color: #1e5742;
+	color: var(--primarygreen);
 }
 .space {
 	height: 45px;
 	width: 100%;
-	background-color: #1e5742;
+	background-color: var(--primarygreen);
 }
 
 /* Rules & Policies */
@@ -273,7 +278,7 @@ th {
 	align-items: center;
 	width: 100%;
 	margin-top: 5%;
-	background-color: #1e5742;
+	background-color: var(--primarygreen);
 	color: white;
 }
 .sportsmanship {
